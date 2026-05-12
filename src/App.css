@@ -357,7 +357,7 @@
   max-width: 760px;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 80px 0;
+  padding: 120px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -367,16 +367,8 @@
 .quote-text span { display: inline-block; opacity: 0; filter: blur(10px); transform: translateY(14px); }
 .quote-section.visible .quote-text span { animation: quoteCharacter 0.7s cubic-bezier(0.22,1,0.36,1) forwards; }
 .about-contact-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0 auto;
   text-align: center;
-  margin: 60px auto 0;
-  padding: 40px 0 80px;
-}
-.about-page-section:last-child {
-  min-height: auto;
-  padding-bottom: 180px;
 }
 .about-contact-link {
   display: inline-flex;
@@ -424,18 +416,14 @@
   scroll-behavior: smooth;
   padding: 0;
 }
-..projects-contact-section {
-  min-height: auto;
-  padding-bottom: 140px;
-  margin-top: 80px;
-  position: relative;
-  z-index: 5;
+.project-page-section {
+  min-height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  display: flex;
+  align-items: center;
+  padding: 105px 0 70px;
 }
-.project-page-section:last-child {
-  min-height: auto;
-  padding-bottom: 180px;
-}
-
 .project-page-section-tall { align-items: flex-start; }
 .projects-hero { text-align: left; max-width: 600px; margin: 0; }
 .projects-intro { display: grid; grid-template-columns: 1fr 0.78fr; align-items: center; gap: 70px; }
