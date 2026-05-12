@@ -424,14 +424,18 @@
   scroll-behavior: smooth;
   padding: 0;
 }
-.project-page-section {
-  min-height: 100vh;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-  display: flex;
-  align-items: center;
-  padding: 105px 0 70px;
+..projects-contact-section {
+  min-height: auto;
+  padding-bottom: 140px;
+  margin-top: 80px;
+  position: relative;
+  z-index: 5;
 }
+.project-page-section:last-child {
+  min-height: auto;
+  padding-bottom: 180px;
+}
+
 .project-page-section-tall { align-items: flex-start; }
 .projects-hero { text-align: left; max-width: 600px; margin: 0; }
 .projects-intro { display: grid; grid-template-columns: 1fr 0.78fr; align-items: center; gap: 70px; }
