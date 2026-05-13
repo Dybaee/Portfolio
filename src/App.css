@@ -369,6 +369,8 @@
 .about-contact-section {
   margin: 0 auto;
   text-align: center;
+  opacity: 1;
+  transform: none;
 }
 .about-contact-link {
   display: inline-flex;
@@ -409,6 +411,7 @@
 }
 .about-contact-link:hover .about-contact-arrow { background: var(--text-dark); color: var(--white); transform: translateX(6px); }
 .projects-contact-section { margin-top: 90px; }
+.project-contact-page-section .projects-contact-section { margin-top: 0; }
 .project-page-snap {
   height: 100vh;
   overflow-y: auto;
