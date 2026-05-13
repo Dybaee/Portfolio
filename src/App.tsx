@@ -294,8 +294,8 @@ function App() {
                 <p className="about-text">Hello! I'm Thomas Dani Artha, a passionate UI/UX designer based in Indonesia. I specialize in creating intuitive and visually appealing digital experiences that solve real problems for users.</p>
                 <p className="about-text">My journey in design started with a curiosity about how digital products work and how they can be improved. This led me to explore UI/UX design, where I found my passion for creating meaningful user experiences.</p>
                 <p className="about-text">Beyond UI/UX design, I'm also deeply interested in game design and game programming. I believe that the principles of good game design can be applied to create better digital products.</p>
-                
-              </div><div className="about-buttons"><a className="btn btn-primary" href="/assets/cv-thomas-dani-artha.pdf" download="CV Thomas Dani Artha.pdf"><Download size={17} /> Download CV</a><button className="btn btn-secondary" onClick={() => goToSection(3)}><Send size={17} /> Contact Me</button></div>
+                <div className="about-buttons"><a className="btn btn-primary" href="CV Thomas Dani Artha.pdf" download="CV Thomas Dani Artha.pdf"><Download size={17} /> Download CV</a><button className="btn btn-secondary" onClick={() => goToSection(3)}><Send size={17} /> Contact Me</button></div>
+              </div>
               <div className="about-hero-image"><img src={images.profile} alt="Thomas Dani Artha" /></div>
             </section>
 
