@@ -224,7 +224,7 @@ function App() {
                       <h1 className="hero-title"><span className="reveal-text"><span>UI / UX Designer</span></span></h1>
                       <p className="hero-description">A junior UI/UX designer currently focused on web and app design. Other than that, I am also interested in game design and game programming. I love to learn new things and always open to new opportunities.</p>
                       <div className="hero-buttons">
-                        <a className="btn btn-primary" href="#"><Download size={17} /> Download CV</a>
+                        <a className="btn btn-primary" href="/assets/CV Thomas Dani Artha.pdf" download><Download size={17} /> Download CV</a>
                         <button className="btn btn-secondary" onClick={() => goToSection(3)}><Send size={17} /> Contact Me</button>
                       </div>
                     </div>
