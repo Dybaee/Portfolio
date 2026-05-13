@@ -222,7 +222,7 @@ function App() {
                     <div className="hero-content">
                       <p className="hero-subtitle"><span className="reveal-text"><span>THOMAS DANI ARTHA</span></span></p>
                       <h1 className="hero-title"><span className="reveal-text"><span>UI / UX Designer</span></span></h1>
-                      <p className="hero-description">A junior UI/UX designer with a strong focus on web and mobile app design. I also have a passion for game design and game programming, combining creativity with problem-solving to build engaging digital experiences. As a fresh graduate in Game & Animation, I enjoy learning new skills, exploring new ideas, and continuously growing through new opportunities and collaborations.</p>
+                      <p className="hero-description">A junior UI/UX designer focused on creating clean and user-friendly web and mobile app experiences. I also have an interest in game design and game programming, where I can combine creativity and technical skills to build interactive digital products. I am always eager to learn, grow, and explore new opportunities.</p>
                       <div className="hero-buttons">
                         <a className="btn btn-primary" href="/assets/CV Thomas Dani Artha.pdf" download><Download size={17} /> Download CV</a>
                         <button className="btn btn-secondary" onClick={() => goToSection(3)}><Send size={17} /> Contact Me</button>
